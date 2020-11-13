@@ -1,3 +1,3 @@
 # I-am-speed
 
-Simple auto-run script for extension
+Simple time multiplier script for extension
