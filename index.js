@@ -17,7 +17,7 @@
 
             let args = [...arguments];
 
-            if (args[1]) args[1] /= mult
+            if (args[1]) args[1] /= mult;
 
             return old_interval.apply(this, args);
         };
@@ -30,7 +30,7 @@
 
             let args = [...arguments];
 
-            if (args[1]) args[1] /= mult
+            if (args[1]) args[1] /= mult;
 
             return old_timeout.apply(this, args);
         };
