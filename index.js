@@ -10,7 +10,7 @@
         };
 
     Date.now = hook_date;
-
+    Date.now.prototype = old_date.prototype;
 
     let old_interval = setInterval,
         hook_interval = function () {
@@ -23,7 +23,7 @@
         };
 
     setInterval = hook_interval;
-
+    setInterval.prototype = old_interval.prototype;
 
     let old_timeout = setTimeout,
         hook_timeout = function () {
@@ -36,5 +36,6 @@
         };
 
     setTimeout = hook_timeout;
+    setTimeout.prototype = old_timeout.prototype;
 
 })();
