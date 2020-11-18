@@ -1,5 +1,5 @@
-# I-am-speed
+# JavaScript Time Machine
 
-Simple time multiplier script for extension
+Simple time modification script
 
--- Automatically executing this script on certain websites can be very helpful to bypass wait times
+-- Automatically "speeding up time" on certain websites can be very helpful to bypass wait times
